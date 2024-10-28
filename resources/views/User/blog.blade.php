@@ -50,9 +50,9 @@
                                         
                                         <div class="card-body">
                                             <div class="card-header text-uppercase">
-                                                <a href="{{'/article/'.$posts->slug}}">{{$posts->category->name ?? ''}}</a>
+                                                <a href="{{'/category/'.$posts->id}}">{{$posts->category->name ?? ''}}</a>
                                             </div>
-                                            <h5 class="fs-4 card-title"><a href="{{'/article/'.$posts->id}}" class="blog-title">{{$posts->title}}</a></h5>
+                                            <h5 class="fs-4 card-title"><a href="{{'/article/'.$posts->slug}}" class="blog-title">{{$posts->title}}</a></h5>
                                             
                                             <ul class="list-unstyled card-meta lead  small">
                                                 <li>By <a href="{{'/author/'.$posts->writer_id}}" class="blog-author fw-bold">{{$posts->writer->name ?? ''}}</a></li>

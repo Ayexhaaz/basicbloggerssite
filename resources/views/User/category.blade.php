@@ -18,7 +18,7 @@
                     <div class="category-wrapper category-wrapper-4 mx-auto position-relative parallax">
                         <div class="container">
                             <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb mt-30 ">
+                                <ol class="breadcrumb pt-100 ">
                                   <li class="breadcrumb-item breadcrumb-style-5"><a href="/home">Home</a></li>
                                   <li class="breadcrumb-item breadcrumb-style-5 active" aria-current="page">Category</li>
                                 </ol>
