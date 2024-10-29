@@ -10,9 +10,9 @@ use Illuminate\Support\Facades\Auth;
 class CategoryController extends Controller
 {
 
-    public function category($id)
+    public function category()
     {
-        $categories= Category::findorfail($id);
+        $categories= Category::get();
         return view('Admin.Categories.category',compact('categories'));
     }
     public function showCategory($id){
